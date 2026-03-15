@@ -76,4 +76,3 @@ cv2.destroyAllWindows()
 
 avg_fps = np.mean(fps_list)
 print(f"平均FPS：{avg_fps:.1f}")
-print(f"这个数字可以写入简历：实时处理速度达到 {avg_fps:.0f} FPS")
