@@ -48,7 +48,9 @@ while True:
     if not ret:
         print("无法读取摄像头画面")
         break
-
+    height, width, channels = frame.shape
+    print(f"摄像头捕捉到的原始画面分辨率: {width} x {height}")
+    
     start = time.time()
     enhanced = enhance_frame(frame)
     fps = 1.0 / (time.time() - start)

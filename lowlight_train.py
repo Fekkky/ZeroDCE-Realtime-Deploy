@@ -310,13 +310,10 @@ if __name__ == "__main__":
 
     config = parser.parse_args()
 
-    # 创建快照保存目录（如果不存在）
     if not os.path.exists(config.snapshots_folder):
         os.makedirs(config.snapshots_folder)
 
-    # 创建可视化结果保存目录（如果不存在）
     if not os.path.exists(config.visualization_folder):
         os.makedirs(config.visualization_folder)
 
-    # 调用训练函数
     train(config)
