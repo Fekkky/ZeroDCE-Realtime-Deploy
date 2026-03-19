@@ -160,24 +160,20 @@ ZeroDCE-Realtime-Enhancement/
 ```
 
 ---
-## 鸣谢与参考 (Acknowledgements)
+## 鸣谢 (Acknowledgements)
 
-本项目的核心模型架构与算法逻辑参考了以下开源项目。在此对原作者表示诚挚的感谢：
+本项目核心算法参考了以下开源仓库：
 
-* **Zero-DCE (CVPR 2020)**: [ucla-vision/Zero-DCE](https://github.com/ucla-vision/Zero-DCE)
-* **ONNX Runtime 部署参考**: 感谢相关社区提供的 I/O Binding 优化思路。
-
-### 论文引用 (Citation)
-如果您在研究中引用了本项目，请务必同时引用 Zero-DCE 的官方论文：
-
-```text
-@inproceedings{guo2020zero,
-  title={Zero-reference deep curve estimation for low-light image enhancement},
-  author={Guo, Chunle and Li, Chongyi and Guo, Jichang and Loy, Chen Change and Hou, Junhui and Kwong, Sam and Cong, Runmin},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={6720--6729},
-  year={2020}
-}
+* **Zero-DCE (CVPR 2020)**: [Li-Chongyi/Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE)
+* **论文引用**: 
+    ```text
+    @inproceedings{guo2020zero,
+      title={Zero-reference deep curve estimation for low-light image enhancement},
+      author={Guo, Chunle and Li, Chongyi and Guo, Jichang and Loy, Chen Change and Hou, Junhui and Kwong, Sam and Cong, Runmin},
+      booktitle={CVPR},
+      year={2020}
+    }
+    ```
 
 ## 参考论文
 
